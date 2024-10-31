@@ -116,7 +116,7 @@ public class Model extends Observable {
         for(int i = 0;i<board.size();i++)
         {
             int k = board.size() -1;
-            for(int j = board.size()-2;j>0;j--)
+            for(int j = board.size()-2;j>=0;j--)
             {
                 Tile t = board.tile(i,j);
                 if(t==null)     continue;
